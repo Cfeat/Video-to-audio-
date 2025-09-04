@@ -48,3 +48,16 @@ FFmpeg是处理音视频的底层工具，必须安装并配置到系统环境�
    ```bash
    git clone https://github.com/你的GitHub用户名/视频转音频工具仓库名.git
    cd 视频转音频工具仓库名
+2. 执行文件：
+   ```bash
+   python main.py  # Windows
+   # 或
+   python3 main.py  # Mac/Linux
+3. 操作流程：
+      - 点击「浏览」选择要转换的视频文件
+      - 选择输出格式（如 MP3）和音质（如 192k）
+      - 点击「开始转换」，等待进度条完成
+      - 转换成功后，会提示音频保存路径（与原视频同目录）
+
+### 方法 2：使用打包后的 EXE 文件（适合 Windows 用户，无需 Python 环境）
+下载 EXE ：直接从仓库下载视频转音频工具.exe，双击使用即可。
